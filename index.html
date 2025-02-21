@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beverage Delivery Service - Kerala</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Beverage Delivery Service </h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Our Items</h2>
+            <div class="beverages">
+                <div class="beverage">
+                    <img src="water.jpg" alt="Water">
+                    <h3>Clear Water - 1L</h3>
+                    <button class="order-btn" onclick="order('Clear Water - 1L')">Order Now</button>
+                </div>
+                <div class="beverage">
+                    <img src="orange.jpg" alt="Juice">
+                    <h3>Orange Juice - 500ml</h3>
+                    <button class="order-btn" onclick="order('Orange Juice - 500ml')">Order Now</button>
+                </div>
+                <div class="beverage">
+                    <img src="soda.jpg" alt="Soda">
+                    <h3>Soda - 330ml</h3>
+                    <button class="order-btn" onclick="order('Soda - 330ml')">Order Now</button>
+                </div>
+                <div class="beverage">
+                    <img src="lemon.jpg" alt="Lemonade">
+                    <h3>Lemonade - 1L</h3>
+                    <button class="order-btn" onclick="order('Lemonade - 1L')">Order Now</button>
+                </div>
+                <div class="beverage">
+                    <img src="iced tea.jpg" alt="Iced Tea">
+                    <h3>Iced Tea - 500ml</h3>
+                    <button class="order-btn" onclick="order('Iced Tea - 500ml')">Order Now</button>
+                </div>
+                <div class="beverage">
+                    <img src="cola.webp" alt="Cola">
+                    <h3>Cola - 330ml</h3>
+                    <button class="order-btn" onclick="order('Cola - 330ml')">Order Now</button>
+                </div>
+                <div class="beverage">
+                    <img src="energy drink.jpg" alt="Energy Drink">
+                    <h3>Energy Drink - 250ml</h3>
+                    <button class="order-btn" onclick="order('Energy Drink - 250ml')">Order Now</button>
+                </div>
+                <div class="beverage">
+                    <img src="sparkling water.jpg" alt="Sparkling Water">
+                    <h3>Sparkling Water - 500ml</h3>
+                    <button class="order-btn" onclick="order('Sparkling Water - 500ml')">Order Now</button>
+                </div>
+                <div class="beverage">
+                    <img src="applejuice.jpg" alt="Apple Juice">
+                    <h3>Apple Juice - 1L</h3>
+                    <button class="order-btn" onclick="order('Apple Juice - 1L')">Order Now</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="order-section">
+            <h2>Your Order</h2>
+            <p id="order-summary">No items ordered yet.</p>
+            <button onclick="placeOrder()">Place Order</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Beverage Delivery Kerala</p>
+        <p>For inquiries, <a href="mailto:support@beveragekerala.com">Contact Us</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
